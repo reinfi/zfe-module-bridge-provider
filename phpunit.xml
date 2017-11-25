@@ -1,0 +1,22 @@
+<phpunit backupStaticAttributes="false"
+         colors="true"
+         convertErrorsToExceptions="true"
+         convertNoticesToExceptions="true"
+         convertWarningsToExceptions="true"
+         processIsolation="false"
+         stopOnFailure="false"
+         syntaxCheck="true">
+    <testsuite name='unit'>
+        <directory suffix='.php'>test/Unit</directory>
+    </testsuite>
+    <testsuite name='integration'>
+        <directory suffix='.php'>test/Integration</directory>
+    </testsuite>
+    <filter>
+        <whitelist processUncoveredFilesFromWhitelist="false">
+            <directory suffix=".php">src</directory>
+        </whitelist>
+    </filter>
+</phpunit>
+
+ 
