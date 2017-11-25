@@ -1,0 +1,37 @@
+{
+  "name": "reinfi/zfe-module-bridge-provider",
+  "type": "library",
+  "description": "An Zend Expressive module for loading ZF2 or ZF3 modules.",
+  "keywords": [
+    "zend",
+    "expressive",
+    "module",
+    "provider"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Reinfi"
+    }
+  ],
+  "require": {
+    "php": ">=7.0",
+    "zendframework/zend-modulemanager": "^2.7",
+    "zendframework/zend-loader": "^2.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Reinfi\\ModuleBridgeProvider\\": [
+        "src/"
+      ],
+      "Reinfi\\ModuleBridgeProvider\\Test\\": [
+        "test/"
+      ]
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^5.7",
+    "satooshi/php-coveralls": "^1.0",
+    "phpunit/phpcov": "^3.0"
+  }
+}
