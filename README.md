@@ -1,5 +1,5 @@
-[![Build Status](https://travis-ci.org/reinfi/zfe-module-bridge-provider.svg?branch=master)](https://travis-ci.org/reinfi/zf-dependency-injection)
-[![Coverage Status](https://coveralls.io/repos/github/reinfi/zfe-module-bridge-provider/badge.svg?branch=master)](https://coveralls.io/github/reinfi/zf-dependency-injection?branch=master)
+[![Build Status](https://travis-ci.org/reinfi/zfe-module-bridge-provider.svg?branch=master)](https://travis-ci.org/reinfi/zfe-module-bridge-provider)
+[![Coverage Status](https://coveralls.io/repos/github/reinfi/zfe-module-bridge-provider/badge.svg?branch=master)](https://coveralls.io/github/reinfi/zfe-module-bridge-provider?branch=master)
 
 Add ZF2 or ZF3 modules to your Zend Expressive application via this bridge.
 
