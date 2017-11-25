@@ -3,8 +3,6 @@
 
 Add ZF2 or ZF3 modules to your Zend Expressive application via this bridge.
 
-1. [Installation](#installation)
-
 ### Installation
 
 1. Install with Composer: `composer require reinfi/zfe-module-bridge-provider`.
